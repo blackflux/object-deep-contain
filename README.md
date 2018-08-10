@@ -30,3 +30,14 @@ objectDeepContain({ a: [1, 2], b: "c" }, { a: [1, 2] });
 objectDeepContain({ a: [1, 2], b: "c" }, { a: [1] });
 // => false
 ```
+
+## Considerations
+
+Lists are only "contained" if they are the same length and every
+element is contained in the corresponding element.
+
+Non List object types are "contained" all keys in the needle exist 
+in the haystack and their values are contained.
+
+All other object types are "contained" if thye match exactly (`===`).
+ 
