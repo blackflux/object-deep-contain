@@ -22,12 +22,12 @@ Install with [npm](https://www.npmjs.com/):
 
 <!-- eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies -->
 ```js
-const objectDeepContain = require('object-deep-contain');
+const deepContain = require('object-deep-contain');
 
-objectDeepContain({ a: [1, 2], b: "c" }, { a: [1, 2] });
+deepContain({ a: [1, 2], b: "c" }, { a: [1, 2] });
 // => true
 
-objectDeepContain({ a: [1, 2], b: "c" }, { a: [1] });
+deepContain({ a: [1, 2], b: "c" }, { a: [1] });
 // => false
 ```
 
