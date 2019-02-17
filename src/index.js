@@ -4,7 +4,7 @@ const deepContain = (haystack, needle) => {
   if (needleType !== haystackType) {
     return false;
   }
-  if (needleType === "object") {
+  if (needleType === 'object') {
     const needleIsArray = Array.isArray(needle);
     const haystackIsArray = Array.isArray(haystack);
     if (needleIsArray !== haystackIsArray) {
