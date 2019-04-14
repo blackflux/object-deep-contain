@@ -1,0 +1,15 @@
+{
+  "@blackflux/robo-config-plugin": {
+    "tasks": [
+      "assorted/@npm-opensource"
+    ],
+    "variables": {
+      "repoKey": "blackflux/object-deep-contain",
+      "packageName": "object-deep-contain",
+      "projectName": "object-deep-contain",
+      "owner": "simlu",
+      "ownerName": "Lukas Siemon",
+      "mergeBot": "MrsFlux"
+    }
+  }
+}
