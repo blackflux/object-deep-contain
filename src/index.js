@@ -18,7 +18,7 @@ const deepContain = (haystack, needle) => {
       return needle.every((e, idx) => deepContain(haystack[idx], e));
     }
     // subset match for object
-    return Object.keys(needle).every(key => deepContain(haystack[key], needle[key]));
+    return Object.keys(needle).every((key) => deepContain(haystack[key], needle[key]));
   }
   // default comparison
   return haystack === needle;
