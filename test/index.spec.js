@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const contain = require('./../src/index');
+const contain = require('../src/index');
 
 
 describe('Testing Object Matcher', () => {
