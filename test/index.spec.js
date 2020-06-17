@@ -1,7 +1,6 @@
 const expect = require('chai').expect;
 const contain = require('../src/index');
 
-
 describe('Testing Object Matcher', () => {
   it('Testing String', () => {
     expect(contain('value1', 'value1')).to.equal(true);
